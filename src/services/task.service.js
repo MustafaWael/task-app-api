@@ -11,7 +11,6 @@ export const create = async (req) => {
 };
 
 export const getTasks = async (req) => {
-  console.log(req.user.populate);
   // setup a query string
   const match = {};
   const sort = {};
